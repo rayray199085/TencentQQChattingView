@@ -15,6 +15,12 @@
 		0D985E752210D51B0012CCA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985E742210D51B0012CCA8 /* main.m */; };
 		0D985E7F2210D51B0012CCA8 /* TencentQQChatInterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985E7E2210D51B0012CCA8 /* TencentQQChatInterfaceTests.m */; };
 		0D985E8A2210D51B0012CCA8 /* TencentQQChatInterfaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985E892210D51B0012CCA8 /* TencentQQChatInterfaceUITests.m */; };
+		0D985E9C2210D7570012CCA8 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D985E9B2210D7570012CCA8 /* messages.plist */; };
+		0D985E9E2210D7620012CCA8 /* autoreply.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D985E9D2210D7620012CCA8 /* autoreply.plist */; };
+		0D985EA12210D7DE0012CCA8 /* SCMsgItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985EA02210D7DE0012CCA8 /* SCMsgItem.m */; };
+		0D985EA42210DC050012CCA8 /* SCMsgFrameItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985EA32210DC050012CCA8 /* SCMsgFrameItem.m */; };
+		0D985EAA2210EB5B0012CCA8 /* SCMsgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985EA92210EB5B0012CCA8 /* SCMsgTableViewCell.m */; };
+		0D985EAE2210F6620012CCA8 /* NSString+SCNSStringExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D985EAD2210F6620012CCA8 /* NSString+SCNSStringExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		0D985E852210D51B0012CCA8 /* TencentQQChatInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentQQChatInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D985E892210D51B0012CCA8 /* TencentQQChatInterfaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentQQChatInterfaceUITests.m; sourceTree = "<group>"; };
 		0D985E8B2210D51B0012CCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D985E9B2210D7570012CCA8 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		0D985E9D2210D7620012CCA8 /* autoreply.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = autoreply.plist; sourceTree = "<group>"; };
+		0D985E9F2210D7DE0012CCA8 /* SCMsgItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMsgItem.h; sourceTree = "<group>"; };
+		0D985EA02210D7DE0012CCA8 /* SCMsgItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMsgItem.m; sourceTree = "<group>"; };
+		0D985EA22210DC050012CCA8 /* SCMsgFrameItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMsgFrameItem.h; sourceTree = "<group>"; };
+		0D985EA32210DC050012CCA8 /* SCMsgFrameItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMsgFrameItem.m; sourceTree = "<group>"; };
+		0D985EA82210EB5B0012CCA8 /* SCMsgTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMsgTableViewCell.h; sourceTree = "<group>"; };
+		0D985EA92210EB5B0012CCA8 /* SCMsgTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMsgTableViewCell.m; sourceTree = "<group>"; };
+		0D985EAC2210F6620012CCA8 /* NSString+SCNSStringExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SCNSStringExt.h"; sourceTree = "<group>"; };
+		0D985EAD2210F6620012CCA8 /* NSString+SCNSStringExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SCNSStringExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +117,14 @@
 		0D985E642210D51A0012CCA8 /* TencentQQChatInterface */ = {
 			isa = PBXGroup;
 			children = (
-				0D985E652210D51A0012CCA8 /* AppDelegate.h */,
-				0D985E662210D51A0012CCA8 /* AppDelegate.m */,
-				0D985E682210D51A0012CCA8 /* ViewController.h */,
-				0D985E692210D51A0012CCA8 /* ViewController.m */,
-				0D985E6B2210D51A0012CCA8 /* Main.storyboard */,
+				0D985E9A2210D53C0012CCA8 /* Others */,
+				0D985E992210D5330012CCA8 /* Controllers */,
+				0D985E982210D52D0012CCA8 /* Views */,
+				0D985E972210D5230012CCA8 /* Models */,
 				0D985E6E2210D51B0012CCA8 /* Assets.xcassets */,
-				0D985E702210D51B0012CCA8 /* LaunchScreen.storyboard */,
 				0D985E732210D51B0012CCA8 /* Info.plist */,
+				0D985E9B2210D7570012CCA8 /* messages.plist */,
+				0D985E9D2210D7620012CCA8 /* autoreply.plist */,
 				0D985E742210D51B0012CCA8 /* main.m */,
 			);
 			path = TencentQQChatInterface;
@@ -130,6 +146,56 @@
 				0D985E8B2210D51B0012CCA8 /* Info.plist */,
 			);
 			path = TencentQQChatInterfaceUITests;
+			sourceTree = "<group>";
+		};
+		0D985E972210D5230012CCA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D985E9F2210D7DE0012CCA8 /* SCMsgItem.h */,
+				0D985EA02210D7DE0012CCA8 /* SCMsgItem.m */,
+				0D985EA22210DC050012CCA8 /* SCMsgFrameItem.h */,
+				0D985EA32210DC050012CCA8 /* SCMsgFrameItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0D985E982210D52D0012CCA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D985E6B2210D51A0012CCA8 /* Main.storyboard */,
+				0D985E702210D51B0012CCA8 /* LaunchScreen.storyboard */,
+				0D985EA82210EB5B0012CCA8 /* SCMsgTableViewCell.h */,
+				0D985EA92210EB5B0012CCA8 /* SCMsgTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0D985E992210D5330012CCA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D985E682210D51A0012CCA8 /* ViewController.h */,
+				0D985E692210D51A0012CCA8 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0D985E9A2210D53C0012CCA8 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0D985EAB2210F60D0012CCA8 /* Categories */,
+				0D985E652210D51A0012CCA8 /* AppDelegate.h */,
+				0D985E662210D51A0012CCA8 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		0D985EAB2210F60D0012CCA8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0D985EAC2210F6620012CCA8 /* NSString+SCNSStringExt.h */,
+				0D985EAD2210F6620012CCA8 /* NSString+SCNSStringExt.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +260,7 @@
 		0D985E5A2210D51A0012CCA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -235,6 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D985E9E2210D7620012CCA8 /* autoreply.plist in Resources */,
+				0D985E9C2210D7570012CCA8 /* messages.plist in Resources */,
 				0D985E722210D51B0012CCA8 /* LaunchScreen.storyboard in Resources */,
 				0D985E6F2210D51B0012CCA8 /* Assets.xcassets in Resources */,
 				0D985E6D2210D51A0012CCA8 /* Main.storyboard in Resources */,
@@ -263,8 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D985E6A2210D51A0012CCA8 /* ViewController.m in Sources */,
+				0D985EAA2210EB5B0012CCA8 /* SCMsgTableViewCell.m in Sources */,
 				0D985E752210D51B0012CCA8 /* main.m in Sources */,
+				0D985EA12210D7DE0012CCA8 /* SCMsgItem.m in Sources */,
 				0D985E672210D51A0012CCA8 /* AppDelegate.m in Sources */,
+				0D985EAE2210F6620012CCA8 /* NSString+SCNSStringExt.m in Sources */,
+				0D985EA42210DC050012CCA8 /* SCMsgFrameItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
